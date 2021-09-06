@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Página Web - Restaurante</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header class="container-fluid bg-black">
+        <p class="text-light mb-0 p-1 fs-6 text-center ">Número de reservas al 018-5524-112</p>  
+    </header>
+
+    <div class="text-center">
+        <img src="./images/LA QUINTA EL PEPE.png" width="200" height="200" class="rounded" alt="imagen del negocio">
+      </div>
+    
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a type="button" class="navbar-brand" href="index.html">PRESENTACIÓN</a>
+            <a class="navbar-brand" href="mapa.html">LOCALIZACIÓN</a>
+            <a class="navbar-brand" href="personal.html">PERSONAL</a>
+            <a class="navbar-brand" href="trabajaconnosotros.html">TRABAJA CON NOSOTROS</a>
+          </div>
+        </nav>
+      </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!--Linea-->
+      <hr>
+
+    <!-- MUESTRA DE COMIDA-->
+    <div id="carouselExampleCaptions" class="carousel slide pt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- carousel-inner lo utilizamos en el css-->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./images/imagen01.jpg" class="d-block w-100" alt="slide1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ESPECIAL PARA TI</h5>
+              <p>Queremos que estés en un lugar como tu casa.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/imagen02.jpg" class="d-block w-100" alt="slide2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>UN POCO DE PICARDIA</h5>
+              <p>El buen sabor de la cerveza.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./images/imagen03.jpg" class="d-block w-100" alt="slide3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>RECORDANDO LOS BUENOS TIEMPOS</h5>
+              <p>Pasar el tiempo con los amigos.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- PRESENTACIÓN -->
+        
+    <section class="w-50 mx-auto text-center pt-5" id="intro1">
+        <h1 class="p-3 fs-2 corder-top border-3 border-top">Tu Restaurante de confianza <span class="text-success">LA QUINTA DE PEPE</span></h1>
+        <p class="text-success">En nuestro local le espera un ambiente tranquilo y agradable, tanto en nuestra cafetería con terraza como en nuestro restaurante, ofreciéndole menú diario especial y nuestra selecta carta, con excelentes productos cárnicos para su deleite en brasa con fuego natural. Todo bajo un estricto y riguroso control de calidad específica y denominación de origen, seleccionando lo mejor y más típico de cada autonomía:</p>
+
+        <h3 class="pt-2">CHULETA DE CERDO</h3>
+        <h3 class="pt-2">AJI DE GALLINA</h3>
+        <h3 class="pt-2">CUY AL HORNO</h3>
+        <h3 class="pt-2">LENGUA ATOMATADA</h3>
+
+        <p class="text-success pt-4">En la QUINTA "EL PEPE" apostamos por:</p>
+
+        <h3 class="pt-3">PRODUCTO DE CALIDAD</h3>
+        <h3 class="pt-2">MANIPULACIÓN NATURAL</h3>
+        <h3 class="pt-2">SERVICIO PROFESIONAL</h3>
+        <p class="text-success pt-4">Con el fin de satisfacer a todos nuestros clientes ponemos a su disposición nuestro amplio comedor, para celebrar todo tipo de eventos, banquetes, comidas de empresa y cenas íntimas, así como una zona privada para comidas de trabajo. Todo nuestro equipo desea que quede satisfecho tras su visita.</p>
+    </section>
+     
+      <!-- contacto -->
+      <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3  pt-3">ELPEPE. &copy; Todos Los Derechos Reservados 2021</p>
+        <div id="iconos" >
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>  
+        </div>
+      </footer>
+
+      <div class="container">
+
+      </div>
+
+      <div class="container">
+        <header class="container-fluid bg-black">
+            <p class="text-light mb-0 fs-6 text-center ">© 2021 Quinta "EL PEPE"</p>  
+        </header>
+      </div>
+       
+  </body>
+    
+
+
+
+</html>
